@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-18T09:57:08.223Z</updated>
+  <updated>2023-02-18T10:03:43.529Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2023/02/18/Hexo%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <id>http://example.com/2023/02/18/Hexo%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
     <published>2023-02-18T09:40:54.250Z</published>
-    <updated>2023-02-18T09:57:08.223Z</updated>
+    <updated>2023-02-18T10:03:43.529Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hexo使用教程"><a href="#Hexo使用教程" class="headerlink" title="Hexo使用教程"></a>Hexo使用教程</h1><ul><li><p>md文件要放在 <code>D:\blog\myblog\source\_posts</code> 文件内才能生效</p></li><li><p>使用标题时要用 <code>YAML Front Matter</code>  定义相关标签，标签类型和格式到时候自行百度</p></li><li><p>Hexo s(server) </p><p>启动本地服务器，用于预览主题。默认地址： <a href="https://link.jianshu.com/?t=http://localhost:4000/">http://localhost:4000/</a></p></li><li><p>Hexo g </p><p>生成网站静态文件到默认设置的 <code>public</code> 文件夹。</p></li><li><p>Hexo d</p><p>自动生成网站静态文件，并部署到设定的仓库。</p><p>也就是将代码同步到ywlqgs.github.io页面上</p></li><li><p>其他Hexo命令参考网址</p><p><a href="https://www.jianshu.com/p/a2d298e26dcd">https://www.jianshu.com/p/a2d298e26dcd</a></p></li><li><p>一般发布网站流程</p><ol><li><p>将写好的md文件放入到<code>D:\blog\myblog\source\_posts</code> 文件内</p></li><li><p>在<code>D:\blog\myblog</code>  根目录下打开git</p></li><li><p>输入指令 git g</p></li><li><p>输入指令 git s  可以在服务器上查看（此步骤可以省略）</p></li><li><p>输入指令 git d </p><ul><li><p>大概率会出现这种连接错误：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/ywlqgs/ywlqgs.github.io/&#x27;: OpenSSL SSL_read: Connection was reset, errno 10054</span><br></pre></td></tr></table></figure><p>这是github服务器在国外传输超时的原因，多重复几次就可以了</p></li></ul></li><li><p>完成文章发布</p></li></ol></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hexo使用教程"><a href="#Hexo使用教程" class="headerlink" title="Hexo使用教程"></a>Hexo使用教程</h1><ul><li><p>md文件要放在 <code>D:\blog\myblog\source\_posts</code> 文件内才能生效</p></li><li><p>使用标题时要用 <code>YAML Front Matter</code>  定义相关标签，标签类型和格式到时候自行百度</p></li><li><p>Hexo s(server) </p><p>启动本地服务器，用于预览主题。默认地址： <a href="https://link.jianshu.com/?t=http://localhost:4000/">http://localhost:4000/</a></p></li><li><p>Hexo g </p><p>生成网站静态文件到默认设置的 <code>public</code> 文件夹。</p></li><li><p>Hexo d</p><p>自动生成网站静态文件，并部署到设定的仓库。</p><p>也就是将代码同步到ywlqgs.github.io页面上</p></li><li><p>其他Hexo命令参考网址</p><p><a href="https://www.jianshu.com/p/a2d298e26dcd">https://www.jianshu.com/p/a2d298e26dcd</a></p></li><li><p><strong>发布文章流程</strong></p><ol><li><p>将写好的md文件放入到<code>D:\blog\myblog\source\_posts</code> 文件内</p></li><li><p>在<code>D:\blog\myblog</code>  根目录下打开git</p></li><li><p>输入指令 git g</p></li><li><p>输入指令 git s  可以在服务器上查看（此步骤可以省略）</p></li><li><p>输入指令 git d </p><ul><li><p>大概率会出现这种连接错误：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/ywlqgs/ywlqgs.github.io/&#x27;: OpenSSL SSL_read: Connection was reset, errno 10054</span><br></pre></td></tr></table></figure><p>这是github服务器在国外传输超时的原因，多重复几次就可以了</p></li></ul></li><li><p>完成文章发布</p></li></ol></li><li><p>我的网站地址：<a href="">ywlqgs.github.io</a></p></li></ul>]]></content>
     
     
       
